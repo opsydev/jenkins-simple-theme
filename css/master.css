@@ -2,9 +2,10 @@ body {
 	background: none;	
 }
 
-#main-table {
-	background: none !important;
-}
+
+/**********************************
+		HEADER MENU
+***********************************/
 
 #top-panel {
 	background: rgb(102,115,133);
@@ -42,5 +43,58 @@ body {
 }
 
 /* TODO: Fix the breadcrumb menu */
+
+
+
+
+/**********************************
+		MAIN TABLE
+***********************************/
+
+#main-table {
+	background: none !important;
+}
+
+
+/**********************************
+		LEFT SIDE PANEL
+***********************************/
+
+
+#side-panel {
+	background: #eee;
+	border-right: 4px solid rgb(102,115,133);
+	margin: 0;
+	padding: 0;
+}
+
+#side-panel #tasks {
+	padding: 0;
+}
+
+#side-panel #tasks .task {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	min-height: 0;
+}
+
+#main-table #tasks {
+	margin: 1em 0;
+}
+
+#side-panel #tasks .task a {
+	display: block;
+	padding: 1em 0em 1em 0.5em;
+	margin: 0;
+	text-decoration: none;
+	font-size: larger;
+}
+#side-panel #tasks .task a b{
+	margin: 0;
+}
+#side-panel #tasks .task a:hover {
+	background: #fff;
+}
 
 
